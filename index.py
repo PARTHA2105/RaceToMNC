@@ -72,6 +72,7 @@ class  'comples'>
 <class 'NoneType'>
 
 None = NO TYPE - 
+
 """
 """
 #complex
