@@ -95,17 +95,68 @@ class Solution:
             return 1
         while(num>0):
             return  num * Solution.FindFactorialValue(num-1)
-
+    @staticmethod
+    def PrintFirstTUFPattern():
+        #lets print 5*5
+        # my code
+        # for i in range(5):
+        #     for j in range(5):
+        #         print("* ",end=" ")
+        #     print("\b")
+        #after review
+        # for i in range(5):
+        #     print("* "* 5)
         
+        # for i in range(5):
+        #     print("* " *(i+1))
+     
+        
+        # for i in range(5):
+        #     for j in range(i+1):
+        #         print("* ",end="")
+        #     print("\b")
+
+        # for i in range(1,5):
+        #     for j in range(1,i+1):
+        #         print(j,end=" ")
+        #     print("\b")
+
+        # for i in range(1,5):
+        #     print(*range(1,i+1))
+        
+        
+        # for i in range(1,5):
+        #     for j in range(i):
+        #         print(i,end=" ")
+        #     print("\b")
+
+        # for i in range(5): #reverse *
+        #     print("* " *(5-i))
+
+        # for i in range (2):
+        #     print("* " * (2-i) )
+
+        # for i in range(5,0,-1): #reverse numbers.
+        #     print(*range (1,i+1))
+        # for i in (5,0,-1):
+        #     print(*range(1,i+1))
+
+        for i in range(0,5):
+            print(" " * (5-i-1),end="")
+            print("*" * (2*i+1),end="")
+            print(" " * (5-i-1),end="")
+            print()
 
 if __name__ == "__main__":
     #  printObj= Solution()
      inputStr="Hello" 
      #pass input string to the print method.
-     res = Solution.printMethod(inputStr)
-     res = Solution.printNumbers(10)
-     res = Solution.FindFactorialValue(5)
-     print(f"The factorial 5 is: {res} ")
+    #  res = Solution.printMethod(inputStr)
+    #  res = Solution.printNumbers(10)
+    #  res = Solution.FindFactorialValue(5)
+    #  print(f"The factorial 5 is: {res} ")
+     res = Solution.PrintFirstTUFPattern()
     
+
 
 

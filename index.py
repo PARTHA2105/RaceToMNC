@@ -5,8 +5,8 @@ import sys
 Use to create multiple line comment.
 """
 
-# print("Hi Partha",end=" ")
-# print("What are you doing.")
+print("Hi Partha",end=" ")
+print("What are you doing.")
 # print("Im Partha",24,"Years old young man")
 # print("Hii"); print("Parthasarathi ")
 
