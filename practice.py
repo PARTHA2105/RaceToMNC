@@ -121,25 +121,23 @@ class Solution:
         #         print(j,end=" ")
         #     print("\b")
 
-        # for i in range(1,5):
-        #     print(*range(1,i+1))
+        for i in range(1,5):
+            print(*range(1,i+1))
         
         
-        # for i in range(1,5):
-        #     for j in range(i):
-        #         print(i,end=" ")
-        #     print("\b")
+        for i in range(1,5):
+            for j in range(i):
+                print(i,end=" ")
+            print("\b")
 
-        # for i in range(5): #reverse *
-        #     print("* " *(5-i))
+        for i in range(5): #reverse *
+            print("* " *(5-i))
 
-        # for i in range (2):
-        #     print("* " * (2-i) )
+        for i in range (2):
+            print("* " * (2-i) )
 
-        # for i in range(5,0,-1): #reverse numbers.
-        #     print(*range (1,i+1))
-        # for i in (5,0,-1):
-        #     print(*range(1,i+1))
+        for i in range(5,0,-1): #reverse numbers.
+            print(*range (1,i+1))
 
         for i in range(0,5):
             print(" " * (5-i-1),end="")
