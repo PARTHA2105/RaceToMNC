@@ -176,7 +176,7 @@ def FindPrimeNumber(num):
         
         if(num %i ==0):
             cnt+=1
-            #If n is not a perfect square, count its reciprocal f
+            ## If n is not a perfect square, count its reciprocal factor
             if(num//i !=i):
                 cnt+=1
     
@@ -184,7 +184,8 @@ def FindPrimeNumber(num):
 
 print(FindPrimeNumber(2))
 
-        
+
+
 
 
 
